@@ -1,7 +1,44 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Settings- Let's fix it
     </ion-title>
   </ion-navbar>
 </ion-header>
+
+
+<ion-content id="bckg">
+   <div padding-left:7px>
+       
+   <ion-list>
+   <h3 padding-top:10px>Saturation</h3>
+  <ion-item>
+  <ion-range min="-200" max="200" [(ngModel)]="saturation" color="secondary">
+      <ion-label range-left>-200</ion-label>
+      <ion-label range-right>200</ion-label>
+    </ion-range>
+  </ion-item>
+  <h3 padding-top:10px>Happiness</h3>
+  <ion-item>
+  <ion-range min="1" max="10" [(ngModel)]="happy" color="yellow">
+      <ion-icon range-left name="sad"></ion-icon>
+     <ion-icon range-right name="happy"></ion-icon>
+    </ion-range>
+  </ion-item>
+
+  
+  <h3 padding-top:10px>Brightness</h3>
+  <div id="slider">
+     Value: {{brightness}}
+</div>
+ <ion-item>
+   
+   <ion-range min="20" max="80" step="2" [(ngModel)]="brightness">
+     <ion-icon small range-left name="sunny"></ion-icon>
+     <ion-icon range-right name="sunny"></ion-icon>
+   </ion-range>
+ </ion-item>
+
+ </ion-list>
+</div>
+</ion-content>

@@ -1,13 +1,30 @@
 page-about {
 
+#iconlove{
+color:maroon;
+font-size: 23px;
+padding-top: 10px;
 
-#imgone{
-    display: block; margin-left: auto; margin-right: auto ;
-    margin-top: 50px;
-}
 }
 
-#imgtwo{
-    display: block; margin-left: auto; margin-right: auto ;
-    margin-top: 50px; 
+#iconsubs{
+    color:red;
+    font-size:23px;
+    padding-top: 10px;
+    padding-left: 40px;
+    }
+
+#iconup{
+        color:blueviolet;
+        font-size: 23px;
+        padding-top: 10px;
+        padding-left: 40px;
+}
+
+h6{
+   
+    display:inline-block;
+   padding-left:5px;
+    margin-top:5px;
+}
 }

@@ -4,9 +4,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding=10px>
+<ion-content padding=10px id="bckg">
   <h2>Welcome to Ionic!</h2>
-  <ion-content>
+  <ion-content id="login">
 
 
     <ion-list>
@@ -22,6 +22,6 @@
       </ion-item>
     
     </ion-list>
-    <button ion-button color="secondary" round>Click Me</button>
+    <button ion-button (click)="showAlert()" color="secondary" round (click)="showAlert()">Click Me</button>
   </ion-content>
 </ion-content>
