@@ -7,9 +7,9 @@ import { NavController } from 'ionic-angular';
 })
 export class ContactPage {
 
-   brightness: number;
+   brightness: 50;
   constructor(public navCtrl: NavController) {
-this.brightness= 50;
+   this.brightness= 50;
   }
 
 }
